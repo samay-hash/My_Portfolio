@@ -47,3 +47,8 @@ function filterGallery(category, btn) {
         }
     });
 }
+
+// Explore My Work button functionality
+document.getElementById('exploreBtn').addEventListener('click', function() {
+    document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+});
