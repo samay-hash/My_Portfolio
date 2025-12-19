@@ -1505,3 +1505,292 @@ body {
     color: rgba(255, 255, 255, 0.4);
     letter-spacing: 1px;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .intro-hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .intro-hero-content {
+        max-width: none;
+    }
+
+    .intro-headline {
+        font-size: 40px;
+    }
+
+    .intro-subtext {
+        font-size: 16px;
+    }
+
+    .intro-cta-group {
+        justify-content: center;
+    }
+
+    .intro-metrics {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .metric-divider {
+        width: 100%;
+        height: 1px;
+        margin: 15px 0;
+    }
+
+    .intro-values {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contact-form {
+        gap: 15px;
+    }
+
+    .contact-info {
+        gap: 20px;
+    }
+
+    /* Gallery specific */
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .section-subtitle {
+        font-size: 13px;
+    }
+
+    .filter-buttons {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .filter-btn {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    /* About specific */
+    .about-text h3 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Contact specific */
+    .contact-item {
+        padding: 20px;
+    }
+
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-details h4 {
+        font-size: 14px;
+    }
+
+    .contact-details p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-headline {
+        font-size: 32px;
+    }
+
+    .intro-subtext {
+        font-size: 14px;
+    }
+
+    .intro-cta-primary,
+    .intro-cta-secondary {
+        width: 100%;
+        padding: 12px 24px;
+    }
+
+    .intro-metrics {
+        padding: 20px 15px;
+    }
+
+    .metric-value {
+        font-size: 36px;
+    }
+
+    .metric-label {
+        font-size: 12px;
+    }
+
+    .value-card {
+        padding: 25px 20px;
+    }
+
+    .value-number {
+        font-size: 40px;
+    }
+
+    .value-card h3 {
+        font-size: 18px;
+    }
+
+    /* Gallery Section Mobile */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .gallery-item {
+        aspect-ratio: 1;
+    }
+
+    .gallery-overlay {
+        padding: 15px;
+    }
+
+    .gallery-overlay h4 {
+        font-size: 14px;
+    }
+
+    .gallery-overlay p {
+        font-size: 11px;
+    }
+
+    .filter-buttons {
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .filter-btn {
+        padding: 8px 16px;
+        font-size: 11px;
+        min-width: 70px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-subtitle {
+        font-size: 12px;
+    }
+
+    /* About Section Mobile */
+    .about-content {
+        gap: 25px;
+    }
+
+    .about-text h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .about-image img {
+        border-radius: 15px;
+    }
+
+    /* Contact Section Mobile */
+    .contact-grid {
+        gap: 25px;
+    }
+
+    .contact-form {
+        gap: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+
+    .contact-info {
+        gap: 15px;
+    }
+
+    .contact-item {
+        padding: 18px;
+        gap: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .contact-details h4 {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+
+    .contact-details p {
+        font-size: 14px;
+    }
+
+    .testimonial-card {
+        padding: 25px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+    }
+
+    .author-avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .author-info h5 {
+        font-size: 13px;
+    }
+}
